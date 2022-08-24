@@ -23,6 +23,10 @@ class SearchViewController: BaseViewController, UICollectionViewDelegate, UIColl
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
     var selectIndexPath : IndexPath?
     let mainView = SearchView()
     override func viewDidLoad() {
